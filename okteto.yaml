@@ -9,6 +9,7 @@ dev:
   api:
     command: ["bash"]
     forward:
+      - 81:81
       - 22:2022
       - 80:80
       - 443:443
