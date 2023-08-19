@@ -9,8 +9,11 @@ dev:
   api:
     command: ["bash"]
     forward:
-      - 8080:8080
-      - 9229:9229
+      - 22:2022
+      - 80:80
+      - 443:443
+      - 19132:19132
+      - 123:123
     sync:
       - api:/usr/src/app
   frontend:
